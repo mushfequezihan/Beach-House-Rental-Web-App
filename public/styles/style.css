@@ -1,0 +1,253 @@
+/*Author: mushfeque.zihan@gmail.com
+purpose: css styles for GUI design*/
+
+@charset="utf-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+
+
+body {background:#39C;}
+
+.main_wrapper{
+	width:1100px;
+	height:auto;
+	margin:auto;
+}
+
+.header_wrapper{
+	width:1100px;
+	height:70px;
+	background:#FFF;
+}
+
+
+
+
+
+#navbar{
+	width:1100px;
+	height:60px;
+	background:#1A446C; 
+	color:#D4E6F4;
+}
+
+#menu{
+	padding-left:5px;
+	line-height:50px;
+	margin-top:5px;
+	float:left;
+}
+
+#menu li{
+	list-style:none;
+	display:inline;
+}
+
+#menu a{
+	color:#FFF;
+	text-decoration:none;
+	font-size:20px;
+	margin:5px;
+	padding:10px;
+}
+
+#menu a:hover{
+	text-decoration:underline;
+	color:#D4E6F4;
+	font-weight:bolder;
+}
+
+#search_form{
+	float:right;
+	line-height:60px;
+	padding-right:5px;
+}
+
+
+
+
+
+
+
+.content_wrapper{
+	width:1100px;
+	height:600px;
+	background:#EEE4B9;
+}
+
+
+
+
+
+#right_content{
+	width:900px;
+	height:auto;
+	background:#EEE4B9;
+	float:right;
+}
+
+#left_sidebar{
+	width:200px;
+	height:600px;
+	background: #8D0D19;
+	color: #D4E6F4; 
+	float:left;
+}
+
+
+
+
+
+
+
+.footer{
+	width:1100px;
+	height:40px;
+	clear:both;
+	text-align:center;
+}
+
+.footer a{
+	color:#FFF;
+	text-decoration:none;
+}
+
+.footer a:hover{
+	color:#F93;
+}
+
+.sidebar_title{
+	background:#FFF;
+	color:#000;
+	padding:10px;
+	font-size:22px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-align:center;
+}
+
+
+
+.state{
+	padding:10px;
+}
+
+.state li{
+	list-style:none;
+	margin:20px;
+}
+
+.state a{
+	color:#FFF;
+	font-size:18px;
+	text-decoration:none;
+	margin:5px;
+}
+
+.state a:hover{
+	color:#000;
+	font-weight:bolder;
+}
+
+
+
+
+.cats{
+	padding:10px;
+}
+
+.cats li{
+	list-style:none;
+	margin:20px;
+}
+
+.cats a{
+	color:#FFF;
+	font-size:18px;
+	text-decoration:none;
+	margin:5px;
+}
+
+.cats a:hover{
+	color:#000;
+	font-weight:bolder;
+}
+
+
+
+
+
+
+
+/*-------headline bar-------*/
+
+#headline{
+	background: #8D0D19;
+	color: #D4E6F4; 
+	padding:5px;
+	height:36px;
+	width:890px;
+}
+
+#headline_title{
+	padding-top:10px;
+	font-weight:bolder;
+}
+
+#headline_content{
+	float:right;
+}
+
+
+
+
+
+
+/*-------House Box Area for displaying houses on index page--------*/
+
+#house_box{
+	/*-----width:780px; padding:10px; margin-top:15px; margin-bottom:10px;---*/
+	margin-left:50px;
+	text-align:center;
+}
+
+#single_house{
+	float:left;
+	padding:15px;
+}
+
+#single_house img{
+	border:2px solid #333;
+}
+
+
+
